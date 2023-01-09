@@ -63,7 +63,7 @@ function App() {
             </a>
             <a
               className="fill-white transition-all scale-110 hover:scale-125 hover:transition-all"
-              href="https://kanban-b.netlify.app"
+              href="https://kanban-brd-app.vercel.app/"
               target="_blank"
             >
               <svg
