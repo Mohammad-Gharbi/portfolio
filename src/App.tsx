@@ -39,7 +39,11 @@ function App() {
         </div>
       </nav>
       <main className="flex justify-center items-center flex-col h-auto">
-        <section className="border-2 border-blue-600 bg-[url(../public/Assets/kanban.png)] bg-center bg-[length:100%_105%] w-4/5 h-[36rem] rounded-2xl mb-10 ease-in-out duration-300  hover:bg-[length:102%_107%] flex items-end p-8 justify-between">
+        <a
+          href="https://kanban-brd-app.vercel.app/"
+          target="_blank"
+          className="border-2 border-blue-600 bg-[url(../public/Assets/kanban.png)] bg-center bg-[length:100%_105%] w-4/5 h-[36rem] rounded-2xl mb-10 ease-in-out duration-300  hover:bg-[length:102%_107%] flex items-end p-8 justify-between"
+        >
           <div>
             <h2 className="block text-white text-3xl font-bold">Kanban</h2>
             <p className="text-slate-200 font-medium">
@@ -76,8 +80,11 @@ function App() {
               </svg>
             </a>
           </div>
-        </section>
-        <section className="border-2 border-blue-600 bg-[url(../public/Assets/news-app.png)] bg-center bg-[length:100%_105%] w-4/5 h-[36rem] rounded-2xl mb-10 ease-in-out duration-300  hover:bg-[length:102%_107%] flex items-end p-8 justify-between">
+        </a>
+        <a
+          href="#"
+          className="border-2 border-blue-600 bg-[url(../public/Assets/news-app.png)] bg-center bg-[length:100%_105%] w-4/5 h-[36rem] rounded-2xl mb-10 ease-in-out duration-300  hover:bg-[length:102%_107%] flex items-end p-8 justify-between"
+        >
           <div>
             <h2 className="block text-white text-3xl font-bold">News App</h2>
             <p className="text-slate-200 font-medium">a Local News App</p>
@@ -98,7 +105,7 @@ function App() {
               </svg>
             </a>
           </div>
-        </section>
+        </a>
       </main>
       <Footer />
     </div>
